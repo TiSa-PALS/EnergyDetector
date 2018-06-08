@@ -139,7 +139,7 @@ void sendData(char topic[12], word d[10], int8_t i) {
 String value = "";
 
 /* load až tu musí existovať context*/
-#include "SimpleMQTTClient.h";
+#include "dataBuffer.h";
 DataBuffer* dataBuffer[8] = {
   new DataBuffer(0),
   new DataBuffer(1),
